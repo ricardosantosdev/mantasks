@@ -26,7 +26,7 @@ SECRET_KEY = 'kaoa^l7k3h&6v8v#5fmi$@^k6$o0x78o3zy5t(om8l+e*12td5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'gerenciador_tarefas.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'mydatabase',
+        'NAME': 'mantasks.db',
     }
 }
 
